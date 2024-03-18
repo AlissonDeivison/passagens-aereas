@@ -1,0 +1,40 @@
+footer {
+  background-color: #1D1B20;
+  display: flex;
+  justify-content: space-around;
+  height: 232px;
+  padding: 32px, 220px, 32px, 220px;
+
+  .section-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 32px;
+    gap: 16px;
+
+    p {
+      color: #F5F5F5;
+      margin: 0;
+      gap: 8px;
+    }
+  };
+
+  .section-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 32px;
+    gap: 8px;
+
+    p {
+      color: #F5F5F5;
+      margin: 0;
+    }
+
+    span {
+      color: #F5F5F5;
+    }
+  };
+}
