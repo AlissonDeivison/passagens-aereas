@@ -15,11 +15,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { SearchCardComponent } from './shared/search-card/search-card.component';
 import { MatCardModule } from '@angular/material/card';
 import { TestimonyCardComponent } from './shared/testimony-card/testimony-card.component';
-
-
-
-
-
+import { SearchFormComponent } from './shared/search-form/search-form.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -32,13 +31,17 @@ import { TestimonyCardComponent } from './shared/testimony-card/testimony-card.c
     HomeComponent,
     SearchCardComponent,
     TestimonyCardComponent,
+    SearchFormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatChipsModule
   ],
   providers: [
     provideAnimationsAsync()
