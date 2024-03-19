@@ -14,6 +14,8 @@ import { ContainerComponent } from './shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SearchCardComponent } from './shared/search-card/search-card.component';
 import { MatCardModule } from '@angular/material/card';
+import { TestimonyCardComponent } from './shared/testimony-card/testimony-card.component';
+
 
 
 
@@ -29,6 +31,7 @@ import { MatCardModule } from '@angular/material/card';
     ContainerComponent,
     HomeComponent,
     SearchCardComponent,
+    TestimonyCardComponent,
   ],
   imports: [
     BrowserModule,
