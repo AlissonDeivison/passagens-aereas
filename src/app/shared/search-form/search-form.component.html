@@ -1,0 +1,19 @@
+<app-card variant="secondary" class="search-form">
+  <form>
+    <h2>Passagens</h2>
+    <div class="flex-container">
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle>
+          <mat-icon>check</mat-icon
+          ><!-- ADICIONA O ICONE DO ANGULAR MATERIAL -->
+          IDA E VOLTA
+        </mat-button-toggle>
+        <mat-button-toggle>SOMENTE IDA</mat-button-toggle>
+      </mat-button-toggle-group>
+      <mat-chip-listbox aria-label="Seleção de passagens">
+        <mat-chip-option selected>1 Adulto</mat-chip-option>
+        <mat-chip-option>Economica</mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+  </form>
+</app-card>
